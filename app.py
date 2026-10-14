@@ -29,7 +29,7 @@ def cari_berkas() -> Path:
         berkas = folder / nama
         if berkas.exists():
             return berkas
-    raise FileNotFoundError("Taruh index.html satu folder dengan app.py")
+    raise FileNotFoundError("Taruh index (1).html satu folder dengan app.py")
 
 
 berkas = cari_berkas()
